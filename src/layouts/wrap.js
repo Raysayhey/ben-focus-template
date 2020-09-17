@@ -8,7 +8,7 @@ import Styles from '../styles'
 
 import { Colors, Fonts, Media } from '../constants'
 
-import Logo from '../assets/images/logo.png'
+import Logo from '../assets/images/logo_generic.png'
 import HeaderBg from '../assets/images/header.jpg'
 import FooterBg from '../assets/images/footer.jpg'
 
@@ -159,26 +159,26 @@ const Header = ({ innerPageName }) => {
         {innerPageName ? (
           ''
         ) : (
-          <div>
-            <h2
-              css={css`
+            <div>
+              <h2
+                css={css`
                 color: inherit;
                 line-height: 1.5rem;
                 font-size: 1.2rem;
                 margin-bottom: 3rem;
                 opacity: 0.8;
               `}>
-              Extreme Aerial Photography and Video Artistry for Lifestyle,
-              Action and Commerce.
+                Extreme Aerial Photography and Video Artistry for Lifestyle,
+                Action and Commerce.
             </h2>
-            <SiteButton
-              to="/services"
-              color={Colors.primary}
-              textColor={Colors.white}
-              label="More Info"
-            />
-          </div>
-        )}
+              <SiteButton
+                to="/services"
+                color={Colors.primary}
+                textColor={Colors.white}
+                label="More Info"
+              />
+            </div>
+          )}
       </div>
     </header>
   )
