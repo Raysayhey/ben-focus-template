@@ -13,9 +13,8 @@ export default ({ className, thumbnail, category, title, slug }) => {
     position: relative;
     margin-bottom: 2rem;
     height: 18rem;
-    ${
-      slug
-        ? `&:before {
+    ${slug
+      ? `&:before {
       content: '';
       position: absolute;
       left: 0;
@@ -27,7 +26,7 @@ export default ({ className, thumbnail, category, title, slug }) => {
       opacity: 0;
       transition-duration: 0.2s;
     }`
-        : ''
+      : ''
     }
     .titleClass {
       position: absolute;
@@ -71,8 +70,8 @@ export default ({ className, thumbnail, category, title, slug }) => {
           </div>
         </div>
       ) : (
-        ''
-      )}
+          ''
+        )}
       <Img fixed={thumbnail} objectFit="cover" objectPosition="50% 50%" />
     </div>
   )
@@ -83,17 +82,17 @@ export default ({ className, thumbnail, category, title, slug }) => {
           css={css`
             ${style}
           `}
-          to={`/work/${slug}`}>
+          to={`/work${slug}`}>
           {inner}
         </Link>
       ) : (
-        <div
-          css={css`
+          <div
+            css={css`
             ${style}
           `}>
-          {inner}
-        </div>
-      )}
+            {inner}
+          </div>
+        )}
     </div>
   )
 }
