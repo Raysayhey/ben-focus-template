@@ -11,7 +11,7 @@ import NormalSection from '../components/normal_section'
 import { SectionHead, SectionDescription } from '../components/section_data'
 
 export default () => (
-  <Wrap pageTitle="Work" innerPageName="Our Work">
+  <Wrap pageTitle="Work" innerPageName="Arbeit">
     <NormalSection color={Colors.light}>
       <div className="container center">
         <div className="row">

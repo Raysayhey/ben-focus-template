@@ -23,13 +23,14 @@ export default () => (
         <div className="row">
           <MiniService
             index="01"
-            title="The Bird's Eye View"
+            title="Text und Mehr"
             to="/services"
             className="col-4">
             <SectionDescription>
-              The best part about Ben Focus is the perspective! Its only when
-              your're flying above is that you realize how incredible the Earth
-              really is.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+              dignissimos! Expedita, sint doloremque? Eveniet, obcaecati!
+              Aliquam odio omnis error quas dolores. Consequuntur officiis cum
+              inventore dignissimos aliquam odio laudantium accusamus.
             </SectionDescription>
           </MiniService>
           <MiniService
@@ -38,9 +39,10 @@ export default () => (
             to="/services"
             className="col-4">
             <SectionDescription>
-              What is 4K? We can tell you for sure that it isn't a standard
-              definition, not high definition, and not in the slighthest a HD
-              resolution! 4K is 4 times HD!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+              dignissimos! Expedita, sint doloremque? Eveniet, obcaecati!
+              Aliquam odio omnis error quas dolores. Consequuntur officiis cum
+              inventore dignissimos aliquam odio laudantium accusamus.
             </SectionDescription>
           </MiniService>
           <MiniService
@@ -49,9 +51,10 @@ export default () => (
             to="/services"
             className="col-4">
             <SectionDescription>
-              Here at Ben Focus, we are extremely excited about meeting your
-              needs. If you have chosen an idea for your project (video, photo,
-              etc.), we will help you with all!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+              dignissimos! Expedita, sint doloremque? Eveniet, obcaecati!
+              Aliquam odio omnis error quas dolores. Consequuntur officiis cum
+              inventore dignissimos aliquam odio laudantium accusamus.
             </SectionDescription>
           </MiniService>
         </div>
@@ -61,7 +64,7 @@ export default () => (
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <SectionHead title="Photography & Video Production Services" />
+            <SectionHead title="Fotografie & Video" />
             <SectionDescription>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
               dignissimos! Expedita, sint doloremque? Eveniet, obcaecati!
@@ -74,7 +77,7 @@ export default () => (
               to="/contact"
               textColor={Colors.white}
               color={Colors.primary}
-              label="Get In Touch"
+              label="Kontaktieren Sie uns"
             />
           </div>
         </div>
@@ -86,22 +89,22 @@ export default () => (
           <div className="col-12">
             <SectionHead
               color={Colors.white}
-              title="We're About Quality & Trust"
+              title="Qualität & Flexibel"
             />
           </div>
           {[
             {
-              title: 'Quality',
+              title: 'Qualität',
               body:
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illo hic optio, unde eligendi obcaecati laboriosam quos atque',
             },
             {
-              title: 'Professional',
+              title: 'Einfach einfacher',
               body:
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illo hic optio, unde eligendi obcaecati laboriosam quos atque',
             },
             {
-              title: 'Trusted',
+              title: 'Schneller',
               body:
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illo hic optio, unde eligendi obcaecati laboriosam quos atque',
             },
@@ -132,25 +135,25 @@ export default () => (
       <div className="container">
         <div className="row">
           <div className="col-12 center">
-            <SectionHead centered title="Recent Projects" />
+            <SectionHead centered title="Projekte" />
           </div>
           {[
             {
-              title: 'Drone With Claws',
+              title: 'Fotostudio',
               date: 'August 2, 2019',
               slug: 'project-slug',
               body:
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa perspiciatis, eaque unde accusantium voluptates dolor placeat?',
             },
             {
-              title: 'Drone With Claws',
+              title: 'Lichter',
               date: 'August 2, 2019',
               slug: 'project-slug',
               body:
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa perspiciatis, eaque unde accusantium voluptates dolor placeat?',
             },
             {
-              title: 'Drone With Claws',
+              title: 'Aufnahme',
               date: 'August 2, 2019',
               slug: 'project-slug',
               body:

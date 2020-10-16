@@ -15,7 +15,7 @@ export default () => {
       <div className="container">
         <div className="row">
           <div className="col-12 center">
-            <SectionHead centered title="Our Team" />
+            <SectionHead centered title="Wer Wie Wo" />
           </div>
           <div className="col-4">
             <div
@@ -41,7 +41,7 @@ export default () => {
             </div>
           </div>
           <div className="col-4">
-            <img src={MiniAboutImage} alt="About Us" width="100%" />
+            <img src={MiniAboutImage} alt="About Us and more" width="100%" />
           </div>
           <div className="col-4">
             <div
@@ -51,7 +51,7 @@ export default () => {
                 font-size: 2rem;
                 text-transform: uppercase;
               `}>
-              Benjamin Tambara
+              Profil Foto
             </div>
             <div
               css={css`
@@ -59,12 +59,11 @@ export default () => {
                 margin-bottom: 1.5rem;
                 font-size: 1rem;
               `}>
-              Creative Director
+              Fotografie & Video
             </div>
             <SectionDescription>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-              provident, ipsam ea odio sit, voluptates sequi placeat eveniet
-              fugiat quod consequatur
+              Ich gestalte gerne Webseiten und Handy Apps. Programmierung, Design, Fotos - alles aus einer Hand.
+              Kontaktieren Sie uns falls Ihnen eine Webseite gefällt und wir stellen etwas für Sie zusammen.
             </SectionDescription>
           </div>
         </div>

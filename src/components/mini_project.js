@@ -39,7 +39,7 @@ export default ({ title, date, slug, children, className }) => {
         to={`/${slug}`}
         textColor={Colors.white}
         color={Colors.primary}
-        label="Read More"
+        label="Mehr dazu"
       />
     </div>
   )

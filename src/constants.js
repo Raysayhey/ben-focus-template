@@ -9,7 +9,7 @@ const Colors = {
   text: '#241C23',
   white: '#FFFFFF',
   light: '#FBFBFB',
-  primary: '#D22027',
+  primary: 'blue',
   shade: '#D48C94',
   secondary: '#252525',
 }

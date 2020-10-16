@@ -17,25 +17,25 @@ export default ({ featured }) => {
     {
       image: 1,
       featured: true,
-      title: 'Event Coverage',
+      title: 'Events',
       items: [
-        'Weddings',
-        'Outdoor Festivals',
-        'Promotional Events',
-        'Concerts',
-        'Team Sports',
+        'Hochzeiten',
+        'Festivals',
+        'Promotion Events',
+        'Konzert',
+        'Sport',
       ],
     },
     {
       image: 2,
       featured: true,
-      title: 'Property Tours',
+      title: 'Häuser & Wohnungen',
       items: [
-        'Weddings',
-        'Outdoor Festivals',
-        'Promotional Events',
-        'Concerts',
-        'Team Sports',
+        'Apartment',
+        'Flat',
+        'Parterre',
+        'Balkon',
+        'Garten',
       ],
     },
     {
@@ -43,11 +43,10 @@ export default ({ featured }) => {
       featured: true,
       title: 'Multimedia',
       items: [
-        'Weddings',
-        'Outdoor Festivals',
-        'Promotional Events',
-        'Concerts',
-        'Team Sports',
+        'Film',
+        'Nachbearbeitung',
+        'Animationen',
+
       ],
     },
     {

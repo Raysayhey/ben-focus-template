@@ -12,7 +12,7 @@ import AboutUsImage from '../assets/images/about-us.png'
 import MiniAbout from '../components/mini_about'
 
 export default () => (
-  <Wrap pageTitle="About Us" innerPageName="About Us">
+  <Wrap pageTitle="Über Sie und Ihn" innerPageName="Über uns">
     <NormalSection color={Colors.light}>
       <div className="container">
         <div className="row">
@@ -20,7 +20,7 @@ export default () => (
             <img src={AboutUsImage} width="100%" alt="About Us" />
           </div>
           <div className="col-6">
-            <SectionHead title="Welcome to Ben Focus" />
+            <SectionHead title="Willkommen" />
             <SectionDescription color={Colors.primary}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
               laudantium, quas laboriosam iusto deserunt expedita.

@@ -17,7 +17,7 @@ import InstagramIcon from '../assets/images/icons/instagram.png'
 import SiteButton from '../components/site_button'
 import NormalSection from '../components/normal_section'
 
-const websiteTitle = 'Ben Focus'
+const websiteTitle = 'Fotografie Gewerbe Seite'
 
 const Header = ({ innerPageName }) => {
   return (
@@ -78,10 +78,10 @@ const Header = ({ innerPageName }) => {
               `}>
               {[
                 { to: '/', title: 'Home' },
-                { to: '/work', title: 'Work' },
-                { to: '/about', title: 'About' },
+                { to: '/work', title: 'Arbeit' },
+                { to: '/about', title: 'Über uns' },
                 { to: '/services', title: 'Services' },
-                { to: '/contact', title: 'Contact' },
+                { to: '/contact', title: 'Kontakt' },
               ].map(item => (
                 <li
                   css={css`
@@ -154,7 +154,7 @@ const Header = ({ innerPageName }) => {
               margin-top: 2rem;
             }
           `}>
-          {innerPageName || 'Photography & Videography Services'}
+          {innerPageName || 'Fotos & Videos'}
         </h1>
         {innerPageName ? (
           ''
@@ -168,14 +168,13 @@ const Header = ({ innerPageName }) => {
                 margin-bottom: 3rem;
                 opacity: 0.8;
               `}>
-                Extreme Aerial Photography and Video Artistry for Lifestyle,
-                Action and Commerce.
+                Luftaufnahmen und andere Fotografie Arbeiten.
             </h2>
               <SiteButton
                 to="/services"
                 color={Colors.primary}
                 textColor={Colors.white}
-                label="More Info"
+                label="Mehr dazu"
               />
             </div>
           )}
@@ -199,7 +198,7 @@ const Footer = () => {
             font-family: ${Fonts.head};
             text-transform: uppercase;
           `}>
-          Let's Fly...
+          kontaktieren sie uns falls sie eine solche Webseite möchten
         </div>
       </NormalSection>
       <NormalSection>
@@ -207,18 +206,18 @@ const Footer = () => {
           <div className="row">
             {[
               {
-                title: 'Info',
+                title: 'Infos',
                 items: [
                   {
-                    title: "The Bird's Eye View",
+                    title: "Dies und mehr",
                     to: '/services',
                   },
                   {
-                    title: '4K Video',
+                    title: 'Videos',
                     to: '/services',
                   },
                   {
-                    title: 'Contact Us',
+                    title: 'Kontaktieren Sie uns',
                     to: '/contact',
                   },
                 ],
@@ -227,15 +226,15 @@ const Footer = () => {
                 title: 'Services',
                 items: [
                   {
-                    title: 'Event Coverage',
+                    title: 'Events',
                     to: '/services',
                   },
                   {
-                    title: 'Property Tours',
+                    title: 'Arbeiten',
                     to: '/services',
                   },
                   {
-                    title: 'Multimedia',
+                    title: 'Kontakt',
                     to: '/contact',
                   },
                 ],
@@ -244,15 +243,15 @@ const Footer = () => {
                 title: 'Links',
                 items: [
                   {
-                    title: 'Our Team',
+                    title: 'Our Über uns',
                     to: '/about',
                   },
                   {
-                    title: 'Clients',
+                    title: 'Was wir tun',
                     to: '/about',
                   },
                   {
-                    title: 'Media',
+                    title: 'Fotos',
                     to: '/work',
                   },
                 ],
@@ -323,17 +322,19 @@ const Footer = () => {
             `}
             className="row">
             <div className="col-8">
-              Ben Focus &copy; 2020. Website by{' '}
+              Fotografie Gewerbe Seite
+              {/* &copy; 2020.  */}
+              Kontaktieren Sie {' '}
               <a
                 css={css`
                   color: inherit;
                 `}
                 rel="noopener noreferrer"
-                href="https://chandujs.dev"
+                href="https://gewerbe-seiten.ch"
                 target="_blank">
-                Chandu J S
+                Gewerbe-Seiten
               </a>{' '}
-              with ❤️
+              aus ❤️ Zürich ❤️
             </div>
             <div
               className="col-4"
@@ -365,9 +366,9 @@ const Footer = () => {
 
 export default ({ children, pageTitle, innerPageName }) => {
   const siteMetadata = {
-    title: `Ben Focus${pageTitle ? ' - ' + pageTitle : ''}`,
-    description: 'Ben Focus',
-    siteURL: 'https://ben-focus.com',
+    title: `Fotografie gewerbe Seite${pageTitle ? ' - ' + pageTitle : ''}`,
+    description: 'Webseite für Fotografie und Video',
+    siteURL: 'https://fotografie-gewerbe-seite.netlify.app/',
   }
   return (
     <div
@@ -407,7 +408,7 @@ export default ({ children, pageTitle, innerPageName }) => {
             content: `${siteMetadata.siteURL}/cover.jpg`,
           },
         ]}>
-        <html lang="en" />
+        <html lang="de" />
       </Helmet>
       <Header innerPageName={innerPageName} />
       {children}

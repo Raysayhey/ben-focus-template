@@ -10,7 +10,7 @@ import NormalSection from '../components/normal_section'
 import { SectionHead, SectionDescription } from '../components/section_data'
 
 export default () => (
-  <Wrap pageTitle="Contact Us" innerPageName="Contact Us">
+  <Wrap pageTitle="Contact Us" innerPageName="Kontakt">
     <NormalSection color={Colors.primary}>
       <div className="container">
         <div className="row">
@@ -65,16 +65,16 @@ export default () => (
         <div className="row">
           {[
             {
-              title: 'Address',
-              body: ['Address Line One', 'Line Two', 'Country'],
+              title: 'Addresse',
+              body: ['Strasse in Zürich 21', '8000 Stadt', 'Schweiz'],
             },
             {
               title: 'Email',
-              body: ['benjtambara@gmail.com', 'main@ben-focus.com'],
+              body: ['anfrage@gewerbe-seiten.ch', 'info@gewerbe-seiten.ch'],
             },
             {
-              title: 'Phone',
-              body: ['+248 2516575'],
+              title: 'Telefon',
+              body: ['079 201 68 03'],
             },
           ].map(item => {
             return (

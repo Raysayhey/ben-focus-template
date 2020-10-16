@@ -18,4 +18,4 @@ videos:
 url: https://react-2048.chandujs.dev/
 ---
 
-I recreated this famous puzzle game in react based on an interview challenge.
+<!-- I recreated this famous puzzle game in react based on an interview challenge. -->
